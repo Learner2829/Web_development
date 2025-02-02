@@ -1,6 +1,12 @@
 body{
     background-color: rgb(199, 195, 195);
 }
-h1{
+.container{
+    display: flex;
+}
+.box{
     text-align: center;
+    margin: 5px;
+    padding:20px;
+    border: 2px solid black;
 }
