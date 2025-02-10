@@ -1,4 +1,3 @@
-
 // Q.1 
 let a = "Ashish"
 let number = 22
@@ -149,6 +148,39 @@ obj = {
 
 for (const key in obj) {
         const element = obj[key];
-        console.log("Name:"`${key}`,"Marks:"`${element}`)
+        // console.log(`Name:${key},Marks:${element}`);
 }
 // let ,const ,var
+// Q 3.3
+function check_num(u_input) {
+    return isNaN(Number(num)) ? 0 : 1;  
+    // for number 1 and string 0
+} 
+
+
+// while (true) {
+//     var num = prompt("Enter Number only...");
+//     if(check_num(num)){
+//         console.log("Your Number is:"+num);
+//         break;
+//     }
+//     else{
+//         console.log("Try again...");
+//     }
+// }  
+
+function find_mean(arr) {
+    sum = 0;
+    for (let index = 0; index < arr.length; index++) {
+        const element = arr[index];
+        sum = sum + element;
+    }
+    result = sum/arr.length;
+    return isNaN(result) ? "Error" : result
+}
+arr=[1,2,3,4,5,6.5]
+// arr ="asbc"
+// arr = "420sanjay"
+// console.log(find_mean(arr))
+
+
