@@ -1,3 +1,4 @@
+
 // Q.1 
 let a = "Ashish"
 let number = 22
@@ -168,7 +169,7 @@ function check_num(u_input) {
 //         console.log("Try again...");
 //     }
 // }  
-
+// Q 3.4
 function find_mean(arr) {
     sum = 0;
     for (let index = 0; index < arr.length; index++) {
@@ -183,4 +184,40 @@ arr=[1,2,3,4,5,6.5]
 // arr = "420sanjay"
 // console.log(find_mean(arr))
 
+// Q 4.1
+// console.log("har\"".length);
+// Q  4.2
+let s2 = "Ashish is good boy";
+let result = s2.includes("is",7);
+// console.log(s2.startsWith("shish"))
+// console.log(s2.endsWith("boy"))
+// console.log(result)
 
+// Q 4.3
+// console.log(s2.toLowerCase())
+// console.log(s2.toUpperCase())
+
+// Q 4.4
+text ="Please Give rs 1000";
+let number2=""; 
+for (let index = 0; index < text.length; index++) {
+    let element = text[index];
+    if(element == '0' || element == '1'){
+        number2 = number2+element;
+    }
+}
+// console.log(typeof(number2))
+// console.log(parseInt(number2))
+
+//Q 4.5
+text[10]="A"
+// console.log(text)
+
+// Q 5.1
+size_of_Array= prompt("Enter a Size of array...")
+arr1=[]
+while (size_of_Array>-1) {
+    arr1[size_of_Array] = prompt("Enter number...");
+    size_of_Array = size_of_Array-1;
+}
+console.log(arr1);
