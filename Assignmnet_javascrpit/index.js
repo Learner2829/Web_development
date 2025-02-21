@@ -214,10 +214,59 @@ text[10]="A"
 // console.log(text)
 
 // Q 5.1
-size_of_Array= prompt("Enter a Size of array...")
-arr1=[]
-while (size_of_Array>-1) {
-    arr1[size_of_Array] = prompt("Enter number...");
-    size_of_Array = size_of_Array-1;
+// size_of_Array= prompt("Enter a Size of array...")
+// arr1=[]
+// while (size_of_Array>-1) {
+//     arr1[size_of_Array] = prompt("Enter number...");
+//     size_of_Array = size_of_Array-1;
+// }        
+// console.log(arr1);
+
+//Q 6.1
+function check_negative(s1=""){
+    if(s1.startsWith("-")){
+        return 1;
+    }
+    else{
+        return 0;
+    }
 }
-console.log(arr1);
+
+// console.log(check_negative("1"));
+// do {
+//     age  = prompt("Enter your age")
+
+//     if(age==4){
+//         // Q 6.4
+//         window.location.replace("http://www.google  .com");
+//     }
+
+//     if (age>18) {
+//         console.log("Your are eligible for driving");
+//         break;
+//     }
+//     else{
+//         // 6.3
+//         check_negative(age)? console.error("nagative age not allow"):
+//         //6.2
+//         console.log("you are not eligible for driving...");
+//         result = confirm("Are you write age again?");
+//         if(result==false){
+//             break;
+//         }
+//     }
+// } while (true);
+// 6.5
+div = document.getElementById('color_change')
+function change_red(){
+div.style.backgroundColor="red";
+};
+function change_green(){
+   div.style.backgroundColor="green";
+};
+
+//7.1
+
+
+
+
